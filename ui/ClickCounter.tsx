@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
-import React from 'react';
+import React from 'react'
 
 const ClickCounter = () => {
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = React.useState(0)
 
   return (
     <button
@@ -12,7 +12,7 @@ const ClickCounter = () => {
     >
       {count} Clicks
     </button>
-  );
-};
+  )
+}
 
-export default ClickCounter;
+export default ClickCounter
