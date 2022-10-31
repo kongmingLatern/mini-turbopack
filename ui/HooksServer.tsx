@@ -1,5 +1,5 @@
-import React from 'react';
-import { cookies, headers, previewData } from 'next/headers';
+import React from 'react'
+import { cookies, headers, previewData } from 'next/headers'
 
 const HooksServer = () => {
   return (
@@ -12,11 +12,11 @@ const HooksServer = () => {
             usePreviewData: previewData(),
           },
           null,
-          2,
+          2
         )}
       </pre>
     </div>
-  );
-};
+  )
+}
 
-export default HooksServer;
+export default HooksServer
